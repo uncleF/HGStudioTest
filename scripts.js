@@ -112,7 +112,7 @@
     const extension = slot.layer === 'standart' ? 'jpg' : 'png';
     return {
       name: slot.name,
-      url: `/resources/${slot.name}.${extension}`,
+      url: `resources/${slot.name}.${extension}`,
     };
   }
 
